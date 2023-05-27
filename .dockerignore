@@ -1,0 +1,6 @@
+node_modules
+build
+.dockerignore
+.gcloudignore
+Dockerfile
+Dockerfile.dev
