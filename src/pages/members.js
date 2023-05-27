@@ -11,6 +11,8 @@ import vicePresidentPhoto2 from '@/public/images/members/VicePresident2.jpg'
 import designerLeader from '@/public/images/members/designerLeader.png'
 import frontendLeader from '@/public/images/members/frontendLeader.jpeg'
 import businessLeader from '@/public/images/members/businessLeader.jpg'
+import backendMember1 from '@/public/images/members/backendMember1.png'
+import aiMember1 from '@/public/images/members/aiMember1.jpg'
 import useWindowDimensions from '@/components/hooks/useWindowDimensions'
 import Loader from '@/components/Loader'
 
@@ -94,6 +96,16 @@ const MEMBERS = [
     description: "Đinh Thế Minh is our UI/UX Designer, he is an Electrical Engineering student at VinUniversity.",
     photo: designerLeader
   },
+  {
+    position: 'Backend Member',
+    description: 'Đỗ Doãn Khắc is member of the Backend Team, he is a Computer Science student at VinUniversity.',
+    photo: backendMember1
+  },
+  {
+    position: 'AI Member',
+    description: 'Nguyễn Đức Trung member of the AI Team, he is a Computer Science student at VinUniversity.',
+    photo: aiMember1
+  }
 ]
 
 const Members = () => {

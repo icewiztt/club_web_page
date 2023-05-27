@@ -28,7 +28,7 @@ const useThemeSwitcher = () => {
     setMode(initialMode);
     document.documentElement.classList.toggle('dark', initialMode === 'dark');
     window.localStorage.setItem('theme', initialMode);
-  }, []);
+  }, [mode]);
 
   const handleModeChange = (newMode) => {
     setMode(newMode);
